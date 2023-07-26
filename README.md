@@ -1,5 +1,7 @@
 # Smooth Deployments
 
+[Stream URL](https://stack-stream.com/case/dont-disturb-your-users-smooth-deployments)
+
 ## Why is this important?
 - Goal for user: Do action he/she wants to do in the application or buy a product
 - If this is disturbed or interrupted by an update user might not feel satisfied 
@@ -52,3 +54,4 @@ Example for applying smooth breaking change releases:
 - Backend: Add new field **freeShippingConditions**, deprecated field **freeShipping**
 - Frontend: Use **freeShippingConditions** field, maybe ask/force users to update
 - Backend: Maybe wait some time, remove deprecated **freeShipping** field
+  
